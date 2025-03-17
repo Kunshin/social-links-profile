@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
--   Live Site URL: [https:/kunshin.github.io/social-links-profile/](https:/kunshin.github.io/social-links-profile/)
+-   Live Site URL: [https://kunshin.github.io/social-links-profile/](https://kunshin.github.io/social-links-profile/)
 
 ## My process
 
