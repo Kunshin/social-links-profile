@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+body {
+  margin: 0;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", serif;
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 20px;
+}
+.container .profile {
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+.container .profile .avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.container .profile strong {
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 15px;
+}
+.container .profile a {
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 15px;
+  padding-block: 15px;
+  border-radius: 10px;
+}
+.container .profile a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+}
+
+@media (max-width: 480px) {
+  .profile {
+    flex: 1;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
